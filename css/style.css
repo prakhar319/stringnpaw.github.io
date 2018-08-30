@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+html,body{
+	width: 100%;	
+	font-size: 14px;
+	font-weight: normal;	font-family:verdana;  
+}
+div{
+	 box-sizing: border-box;
+}
+.header {
+       width: 100%;
+    float: left;
+    height: auto;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    padding: 10px; top:0;    -webkit-box-shadow: 0 0 5px 2px #d4d4d4;
+    -moz-box-shadow: 0 0 5px 2px #d4d4d4;
+    box-shadow: 0 0 5px 2px #d4d4d4;
+    font-family: Segoe Script;
+}
+.header_container {
+    float: none;
+    width: 70%;
+    margin: auto;
+}
+.logo {
+    width: 40%;
+    float: left;
+    height: auto;
+}
+.background{
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/background.jpg');
+	background-repeat:  no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+.nav {
+    width: 60%;
+    height: auto;
+    float: right;
+}
+.nav a{
+	font-size: 18px;
+    font-weight: bold;
+    height: auto;
+    margin: 5px;
+    float: left;
+    color: #333;
+    text-align: center;
+    transition: 500ms;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+a.active, .nav a:hover{
+	    background-color: #757575;  color: #fff;
+} 
+
+.banner {
+    width: 100%;
+    float: left;
+    height: auto; position:relative;
+}
+ .banner img{  
+ width: 100%;    max-width: 100%;
+}
+.home{
+	position: absolute;
+    top: 20%;
+    color: #fff;
+    text-transform: auto;
+    width: 100%;
+    /*text-align: left;*/
+}
+.home h1{
+	font-size: 30px;
+	top: 20%;
+	/*padding-right: 90px;*/
+	/*border-bottom: 1px solid white;*/
+	text-align: left;
+	font-family: ink free;
+}
+.home h2{
+	top:30%;
+	font-size: 50px;
+	padding: 5px 0;
+	opacity: 0.6%;
+	text-align: center;
+	font-family: ink free;
+}
+.home h3{
+	font-size: 25px;
+	top: 40%
+	padding: 5px 0;
+	opacity: 0.6%;
+	text-align: center;
+	font-family: ink free;
+}
+
+.aboutus{
+	    width: 100%;
+    float: left;
+    height: auto;
+    padding: 90px 100px 60px;
+    position: relative;
+    box-sizing: border-box;
+    font-family: Segoe Script;
+}
+.aboutus p{
+	font-size: 18px;line-height: 28px;margin-bottom: 15px;
+}
+.gallery{	
+	width:100%;float:left;height:auto; padding:90px 60px;
+}
+.gallery .image{
+	width: 45%;
+	margin-left: 20%;
+	margin: 5%;
+	float: center;
+}
+
+.gallery h1
+{
+	font-family: Segoe Script;
+}
+
+.image img{
+	width: 100%;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease o.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+.image img:hover{
+	transform: scale(1.2);
+	-webkit-transition: scale(1.2);
+}
+
+.reachme{
+	font-family: Segoe Script;
+	
+	width:100%;float:left;height:auto; padding:90px 60px;
+	}
+
+.contactform
+{
+	    width: 100%;
+    float: left;
+    height: auto;
+    padding: 0 100px;
+}
+
+.inputtext{
+	width: 100%;
+	height: 35px;
+	border: 1px solid #ccc;
+	color: #333;
+	background-color: #fff;
+	font-size: 18px;
+	padding: 0 10px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.inputmessage{
+	width: 100%;
+	height: 135px;
+	border: 1px solid #ccc;
+	color: #333;
+	background-color: #fff;
+	font-size: 18px;
+	padding: 0 10px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+input.submitbutton {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    float: right; cursor:pointer;
+}
+
+.myContainer1 p
+{
+	font-family: Segoe Script;
+	font-size: 20px;
+	float: left;
+	margin: 2px;
+
+}
+.myContainer2 p
+{
+	font-family: Segoe Script;
+	font-size: 20px;
+	float: left;
+	margin: 2px;
+
+}
+.myContainer3 p
+{
+	font-family: Segoe Script;
+	font-size: 20px;
+	float: left;
+	margin: 2px;
+
+}
+.Email {
+	font-family: Segoe Script;
+}
